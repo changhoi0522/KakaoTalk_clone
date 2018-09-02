@@ -1,0 +1,16 @@
+@media screen and (min-width: 530px) {
+  .bigScreen {
+    display: flex;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .smallScreen {
+    display: flex;
+  }
+}
+@media screen and (max-width: 340px) {
+  .smallScreen {
+    display: flex;
+  }
+}
