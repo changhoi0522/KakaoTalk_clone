@@ -1,0 +1,50 @@
+.more__header .my {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 25px;
+  font-weight: 600;
+}
+.my__Profile .my__img {
+  border-radius: 50%;
+  width: 38px;
+  margin-right: 8px;
+}
+
+.my .my__Profile {
+  display: flex;
+  align-items: center;
+}
+
+.more .more__space {
+  height: 25px;
+  width: 100%;
+}
+
+.my .my-btn {
+  width: 70px;
+  height: 35px;
+  border: solid 1px #cdcdcd;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more__options {
+  display: grid;
+  grid-template-columns: 50% 20% 1fr;
+  height: 50px;
+  margin: 25px 25px;
+  border: solid 1px #dcdcdc;
+}
+.more__options .more__option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.more__option .more__option-title {
+  margin-left: 5px;
+}

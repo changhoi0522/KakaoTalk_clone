@@ -1,0 +1,108 @@
+header.top-header.top-header--transparent {
+  background-color: transparent;
+}
+.top-header--transparent .header__top .header__column {
+  width: 33.33%;
+  color: white;
+}
+
+.top-header--transparent .header__top .header__column:last-child {
+  text-align: right;
+}
+.top-header--transparent .header__top .header__column:nth-child(2) {
+  text-align: center;
+}
+
+.top-header--transparent .header__bottom .header__column a {
+  color: white;
+}
+
+.header__bottom .header__column {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.profile .profile__header.kch {
+  height: 65vh;
+  background-size: cover;
+  background-image: url("../image/back.jpg");
+  position: relative;
+  width: 100%;
+  top: -75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile .profile__header.kmj {
+  height: 65vh;
+  background-size: cover;
+  background-image: url("../image/back_mj.jpg");
+  position: relative;
+  width: 100%;
+  top: -75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile .profile__header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding-bottom: 10px;
+}
+
+.profile__header .profile__header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: -100px;
+}
+
+.profile__header-title {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h4.profile__header-subtitle {
+  color: #7f7f7f;
+  border: solid 1px #d9d9d9;
+  padding: 5px 7px;
+  margin-top: 5px;
+}
+
+.profile__actions {
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile__actions .profile__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_action-circle {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_action-circle .profile__icon {
+  font-size: 20px;
+}
+
+.profile__actions .profile__action-title {
+  font-size: 13px;
+}

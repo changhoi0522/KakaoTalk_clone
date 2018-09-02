@@ -1,0 +1,31 @@
+.search-bar {
+  padding: 0px 25px;
+  padding-top: 20px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-content: space-around;
+  color: #b2b2b2;
+  background-color: #f8f8f8;
+}
+
+.search-bar i:first-child {
+  position: absolute;
+  top: 27px;
+  left: 33px;
+}
+.search-bar i:last-child {
+  position: absolute;
+  top: 27px;
+  right: 33px;
+}
+
+.search-bar input {
+  text-align: center;
+  width: 100%;
+  padding: 5px 7px;
+  box-sizing: border-box;
+  border: solid 1px #fcfcfc;
+  border-radius: 7px;
+  font-size: 15px;
+}

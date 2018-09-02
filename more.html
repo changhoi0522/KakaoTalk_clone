@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>More</title>
+</head>
+<body>
+  <header class="top-header">
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fas fa-plane">  </i>
+        <i class="fas fa-wifi"></i>
+      </div> <!-- plane, wifi -->
+      <div class="header__column"><span class="header__time">오후 7:03</span></div>
+      <div class="header__column">
+        <i class="fas fa-moon"></i>
+      <!--moon icon, 회전 금지 아이콘, 배터리 아이콘 -->
+      <span class="header__battery">68%</span>
+      <i class="fas fa-battery-three-quarters"></i>
+    </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__column"></div>
+      <div class="header__column"><span class="header__text">더보기</span></div>
+      <div class="header__column">
+        <span class="header__text fas fa-cog fa-lg"></span>
+      </div>
+    </div>
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="검색">
+      <i class="fas fa-qrcode"></i>
+    </div>
+  </header>
+  <main class="more">
+    <div class="more__space">
+    </div>
+    <header class="more__header">
+      <a href="my.html" class="my">
+        <div class="my__Profile">
+          <img class="my__img" src="image/myProfileImg.jpg">
+          <span class="my__name">김창회</span>
+        </div>
+        <div class="my-btn">
+          <span class="btn-name">MY</span>
+        </div>
+      </a>
+    </header>
+    <section class="more__options">
+      <div class="more__option">
+        <span class="fas fa-comment">pay</span>
+        <span class="more__option-title">
+        1,000원
+        </span></div>
+      <div class="more__option">
+        <span class="fas fa-won-sign"></span>
+        <span class="more__option-title">
+        송금
+      </span></div>
+      <div class="more__option">
+        <i class="fas fa-qrcode"></i>
+        <span class="more__option-title">
+        매장결제
+      </span></div>
+    </section>
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab">
+      <i class="fas fa-user-circle"></i>
+      <span class="tab-bar__title">친구</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab">
+      <i class="far fa-comment"></i>
+      <span class="tab-bar__title">채팅</span>
+    </a>
+    <a href="channel.html" class="tab-bar__tab">
+      <i class="far fa-newspaper"></i>
+      <span class="tab-bar__title">채널</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fas fa-ellipsis-h"></i>
+      <span class="tab-bar__title">더보기</span>
+    </a>
+  </nav>
+</body>
+</html>

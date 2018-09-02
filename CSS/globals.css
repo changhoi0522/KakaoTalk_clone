@@ -1,0 +1,28 @@
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  padding-top: 115px;
+}
+
+body.non-search-bar {
+  font-family: "Nanum Gothic", sans-serif;
+  padding-top: 68px;
+}
+
+main {
+  padding-bottom: 65px;
+  animation: 0.5s bodyPopIn ease-in-out;
+}
+main.non-navigation {
+  padding-bottom: 0px;
+}
+
+@keyframes bodyPopIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

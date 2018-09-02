@@ -1,0 +1,135 @@
+.chats__list .chats__chat {
+  padding: 15px;
+}
+
+.chats__chat .chat__img img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.chats__chat .chat__chat {
+  display: flex;
+}
+
+.chat__chat .chat__content {
+  width: 100%;
+}
+
+.chat__content .chat__object {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+li.chats__chat {
+  height: 88px;
+}
+a.chat__chat {
+  text-decoration: none;
+  color: black;
+}
+div.name {
+  font-weight: 600;
+  font-size: 18px;
+}
+div.time {
+  color: #bebebe;
+  font-size: 14px;
+}
+
+.chat-btns {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: transparent;
+  z-index: 11;
+  position: fixed;
+  right: 20px;
+  bottom: 75px;
+}
+
+.chat-btns .chat-btn:not(.color-black) {
+  width: 55px;
+  height: 55px;
+  border: solid 1px #5a4338;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  right: 20px;
+  bottom: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-btns .chat-btn.color-black {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: black;
+  position: fixed;
+  right: 20px;
+  bottom: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat-btns .chat-btn:first-child {
+  z-index: 10;
+}
+
+.chat-btns .chat-btn.color-black:nth-child(2) {
+  z-index: 9;
+}
+
+.chat-btns .chat-btn.color-black span {
+  color: white;
+  font-size: 17px;
+}
+
+.chat-btns .chat-btn:not(.color-black) span {
+  color: #5a4338;
+  font-size: 17px;
+}
+
+.chat-btns:active .chat-btn:first-child,
+.chat-btns:active .chat-btn:first-child span {
+  background-color: transparent;
+  color: transparent;
+}
+.chat-btn {
+  transition: transform 0.1s linear;
+}
+
+.chat-btns:active .chat-btn_5 {
+  transform: translateY(-65px);
+}
+
+.chat-btns:active .chat-btn_4 {
+  transform: translateY(-130px);
+}
+
+.chat-btns:active .chat-btn_3 {
+  transform: translateY(-195px);
+}
+
+.chat__img .chat__with-me {
+  position: relative;
+  top: -21px;
+  left: 40px;
+  background-color: #f9df04;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.with-me-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #5a4338;
+}

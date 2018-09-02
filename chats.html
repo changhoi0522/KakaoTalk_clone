@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Chats</title>
+</head>
+<body>
+  <header class="top-header">
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fas fa-plane">  </i>
+        <i class="fas fa-wifi"></i>
+      </div> <!-- plane, wifi -->
+      <div class="header__column"><span class="header__time">오후 7:03</span></div>
+      <div class="header__column">
+        <i class="fas fa-moon"></i>
+      <!--moon icon, 회전 금지 아이콘, 배터리 아이콘 -->
+      <span class="header__battery">68%</span>
+      <i class="fas fa-battery-three-quarters"></i>
+    </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__column">
+        <span class ="header__text">편집</span>
+      </div>
+      <div class="header__column">
+        <span class="header__text">채팅<i class="fas fa-caret-down"></i></span>
+      </div>
+      <div class="header__column"><span class="header__text fas fa-cog fa-lg"></span>
+      </div>
+    </div>
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="검색">
+      <i class="fas fa-qrcode"></i>
+    </div>
+  </header>
+  <main class="chats">
+    <ul class="chats__list">
+      <li class="chats__chat">
+        <a class = "chat__chat" href="chat-with-me.html">
+        <div class="chat__img">
+          <img src="image/myProfileImg.jpg">
+          <div class="chat__with-me">
+            <span class="with-me-text">
+              나
+            </span>
+          </div>
+        </div>
+        <div class="chat__content">
+          <div class="chat__object">
+            <div class="name">김창회</div>
+            <div class="time">어제</div>
+          </div>
+          <div class="last_message">
+            <span class="text">test message</span>
+          </div>
+        </div>
+        </a>
+      </li>
+    </ul>
+  </main>
+  <div class="chat-btns">
+    <div class="chat-btn color-black">
+      <span class="fas fa-comment fa-2x">+</span>
+    </div>
+    <div class="chat-btn color-black">
+      <span class="fas fa-times fa-2x"></span>
+    </div>
+    <div class="chat-btn chat-btn_3">
+      <span class="fas fa-comments"></span>
+    </div>
+    <div class="chat-btn chat-btn_4">
+      <span class="fas fa-unlock-alt"></span>
+    </div>
+    <div class="chat-btn chat-btn_5">
+      <span class="fas fa-comment"></span>
+    </div>
+  </div>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab">
+      <i class="fas fa-user-circle"></i>
+      <span class="tab-bar__title">친구</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="far fa-comment"></i>
+      <span class="tab-bar__title">채팅</span>
+    </a>
+    <a href="channel.html" class="tab-bar__tab">
+      <i class="far fa-newspaper"></i>
+      <span class="tab-bar__title">채널</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fas fa-ellipsis-h "></i>
+      <span class="tab-bar__title">더보기</span>
+    </a>
+  </nav>
+</body>
+</html>

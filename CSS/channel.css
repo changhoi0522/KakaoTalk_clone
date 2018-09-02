@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+
+.channel__error {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.channel__error .channel__error-message h2,
+.channel__error .channel__error-message h3 {
+  text-align: center;
+}
+.channel__error .channel__error-message h2 {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.channel__error .channel__error-message h3 {
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+
+div.channel__error-btn {
+  height: 50px;
+  width: 100px;
+  background-color: #ffeb00;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a.channel__error-retry {
+  text-decoration: none;
+  color: #5a4338;
+  font-weight: 600;
+  font-size: 19px;
+}
