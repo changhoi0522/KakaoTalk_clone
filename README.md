@@ -1,4 +1,4 @@
-# forDisplay Kakao clone
+# Kakao clone
 
 - HTML5
 - CSS3
